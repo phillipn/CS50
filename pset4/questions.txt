@@ -1,0 +1,19 @@
+0.  BMP - 16.7 million, GIF - 256, JPEG - 16 million, PNG - 281 billion
+1.  GIF
+2.  Lossy can cause the file to lose data upon ebing uncompressed. Lossless on the other hand cannot.
+3.  JPG
+4.  The system will edit the first letter of the file's directory entry to signal that the file has been deleted. Then it moves all of the data clusters to the free clusters. Apparently there are some tools that can recover "erased" files.
+5.  Encrypting data before throwing the hard drive in an incinerator!
+6.  It is a header library that makes sure all integers are of a specified width and will define all corresponding macros.
+7.  It makes clear that you intend to specify widths for your elements.
+8.  byte = 1 byte, dword = 4 bytes, long = 4 bytes, word = 2 bytes
+9.  0x424d
+10. bi size is the amount of bytes in the info header. bf size represents total amount of bytes in the file.
+11. If negative, the image originates in the upper left hand corner and is considered a top-down DIB.
+12. bibitcount
+13. If it cannot find the file to ouput then it will show null.
+14. Since we are reading out of a struct we only need to read this one element.
+15. It would assign three bytes of padding to make a multiple of 4.
+16. Skips over padding if necessary.
+17. This is an integer constant that provides offset relative to the current file position
+18. Seth McFarlene?!

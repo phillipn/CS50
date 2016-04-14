@@ -1,0 +1,22 @@
+0.  It is the longest word in the dictionary! The definition is a lung disease charactererized by inhaling fine particles of ash or sand.
+1.  It displays resource usage.
+2.  16
+3.  The function expects a pointer. Using pointers will save time and memory.
+4.  The function will read from the text file character by character until the end of file. If the character is a letter or a non-starting apostrophe, the character will be assigned an index into the word array.
+The index will then be incremented to allow the next character to be placed into the word array. The word will be terminated upon reaching a space. This is when we add the /o for the word and spell check. After that we 
+increment the mispellings if the word was indeed mispelled. We then proceed to check the next word by restarting the index. We will also reset the index if we reach a number or a word that is greater than length  + 1.
+5. By reading character by character we can exclude things like non-letter characters. Fscanf reads between whitespace which will include periods, commas, and the like.
+6.  We wouldn't want to accidentally leave out the pointer * during assignment. A const keyword will let you know at compile time if you accidentally left it out.
+7.  I used a struct named node that stored a word and a pointer to the next value. I used an array to index 27 values with linked lists added for each letter, otherwise known as a hash table. For the first node linked in each index, I made sure
+to make its pointer NULL. If there was already something linked to the index I changed the next pointers accordingly. 
+8.  WORDS MISSPELLED:     644
+WORDS IN DICTIONARY:  143091
+WORDS IN TEXT:        19190
+TIME IN load:         0.06
+TIME IN check:        0.01
+TIME IN size:         0.00
+TIME IN unload:       0.02
+TIME IN TOTAL:        0.10
+
+9.  I tried a trie to begin with that just did not work, so I tried to hash it out.
+10. I pretty much perfected it by consulting with the good folks at GitHub.
